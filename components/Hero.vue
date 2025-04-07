@@ -12,10 +12,9 @@
           {{ introText }}
         </p>
         <NuxtLink
-          to="/contact"
           class="inline-block bg-green-600 hover:bg-green-700 text-white px-16 py-6 rounded-md transition-colors duration-300 shadow-2xl shadow-green-600/50"
         >
-        <div class="flex items-center gap-2">
+        <div class="flex items-center gap-2 cursor-pointer">
             Let's get started
             <span class="ml-2 animate-ping">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">

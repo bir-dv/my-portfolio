@@ -1,10 +1,10 @@
 <template>
-  <div class="min-h-screen flex items-center bg-black text-white px-4 -mt-20">
+  <div class="md:min-h-screen flex items-center bg-black text-white px-4 pt-32 pb-10 md:-mt-20">
     <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div>
-        <h1 class="text-5xl md:text-7xl font-bold mb-6">
+        <h1 class="text-4xl md:text-7xl font-bold mb-6">
           Biruk Yoseph <br>
-          <span class="text-4xl bg-gradient-to-r from-green-700 to-green-400 bg-clip-text text-transparent font-mono">
+          <span class="text-2xl md:text-4xl bg-gradient-to-r from-green-700 to-green-400 bg-clip-text text-transparent font-mono">
            Frontend Developer
           </span>
         </h1>
@@ -38,5 +38,5 @@
 </template>
 
 <script setup lang="ts">
-const introText = "Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+const introText = "Turning ideas into clean code and smooth user interfaces. Let’s Design and build something awesome together."
 </script>

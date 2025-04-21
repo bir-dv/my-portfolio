@@ -1,5 +1,5 @@
 <template>
-    <section class="h-screen flex dark:bg-gray-900 max-w-7xl mx-auto justify-center items-center">
+    <section class="h-full py-32 flex dark:bg-gray-900 max-w-7xl mx-auto justify-center items-center">
     <div class="container border-2 border-green-800/30 drop-shadow-6xl px-6 py-10 mx-auto rounded-lg">
         <h1 class="text-4xl bg-gradient-to-r from-green-900 to-green-400 bg-clip-text text-transparent font-mono text-center">
             About Me
@@ -20,7 +20,7 @@
                         <span class="text-sm text-gray-500 dark:text-gray-400">Frontend Developer and UI/UX Designer</span>
                     </div>
                 </div>
-                <p class="flex items-center text-center text-gray-500 lg:mx-8  mt-8">
+                <p class="flex items-center md:text-center text-justify text-gray-500 lg:mx-8 mt-8">
                     My name is Biruk Yoseph, and I graduated in computer
                     engineering during my academic career. I explored how
                     algorithms and data structures can be optimized for

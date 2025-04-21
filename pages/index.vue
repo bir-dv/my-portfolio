@@ -12,6 +12,9 @@
         <section id="work">
             <recentWork />
         </section>
+        <section class="md:pt-20">
+            <certification />
+        </section>
         <section id="contact">
             <contact />
         </section>
@@ -24,5 +27,6 @@ import WorkedWith from '@/components/WorkedWith.vue'
 import about from './about.vue'
 import contact from './contact.vue'
 import recentWork from './recent-work.vue'
+import certification from './certification.vue'
 
 </script>

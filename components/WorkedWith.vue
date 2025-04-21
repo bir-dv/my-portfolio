@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black text-white py-10 px-4">
+  <div class="bg-black text-white px-4">
     <div class="max-w-7xl mx-auto">
       <h2 class="text-3xl mb-8 font-mono">Worked with</h2>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">

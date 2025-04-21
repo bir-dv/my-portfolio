@@ -13,7 +13,7 @@
             <div
             v-for="(card, index) in cards"
             :key="index"
-            class="flex items-end overflow-hidden bg-contain bg-center bg-no-repeat rounded-lg h-96 transition-transform duration-300 ease-in-out hover:scale-105"
+            class="flex flex-col justify-end overflow-hidden bg-cover bg-center bg-no-repeat rounded-lg h-96 transition-transform duration-300 ease-in-out hover:scale-105"
             :style="`background-image: url(${card.image})`"
             >
             <div class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/80 dark:bg-gray-800/60">
